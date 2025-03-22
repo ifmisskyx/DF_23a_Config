@@ -1,0 +1,141 @@
+Change this to turn sound off.
+
+[SOUND:ON]
+
+Change this to skip the wonderful intro movies.
+
+[INTRO:ON]
+
+This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or PROMPT.
+
+[WINDOWED:PROMPT]
+
+This is the size and font for windowed mode.  Changing to 800x600 and the 800x600 font might make you happier.
+
+[WINDOWEDX:640]
+[WINDOWEDY:300]
+[FONT:curses_640x300.bmp]
+
+Full screen info.
+
+[FULLSCREENX:800]
+[FULLSCREENY:600]
+[FULLFONT:curses_800x600.bmp]
+
+If this is set to YES, the tiles will not be stretched, but rather the game view will be centralized, surrounded by black space.  Tiles that are too large will always be compressed rather than running off the screen.
+
+[BLACK_SPACE:NO]
+
+Graphics info, most of it as above.  Set GRAPHICS to YES to turn it all on.  This will use the "raw/graphics" folder for tile information.  Currently this is limited to whatever creature graphics you have downloaded.  The game comes with a few pictures to demonstrate.
+
+[GRAPHICS:NO]
+[GRAPHICS_WINDOWEDX:1280]
+[GRAPHICS_WINDOWEDY:400]
+[GRAPHICS_FONT:curses_square_16x16.bmp]
+[GRAPHICS_FULLSCREENX:1280]
+[GRAPHICS_FULLSCREENY:800]
+[GRAPHICS_FULLFONT:curses_square_16x16.bmp]
+[GRAPHICS_BLACK_SPACE:YES]
+
+Change this to YES if you want to see an FPS counter at the top left.
+
+[FPS:NO]
+
+Use this to set the maximum frame rate during play.  The movies are always capped at 100.
+
+[FPS_CAP:100]
+
+Change this to NO if you don't want to have the mouse involved at all.
+
+[MOUSE:YES]
+
+Change this to YES if you'd like to use a BMP for the mouse cursor.  The image currently lags when the game is lagging however.
+
+[MOUSE_PICTURE:NO]
+
+Use these options to remove features from the game.  This might speed the game up.
+
+[TEMPERATURE:YES]
+[WEATHER:YES]
+
+You can set the maximum population of your fortress here.  Keep in mind that your population must exceed 80 to get a king and 100 to obtain the current game features.
+
+[POPULATION_CAP:200]
+
+If you don't like the ,.`' ground, try setting this to NO.  The ground will turn into periods only.
+
+[VARIED_GROUND_TILES:YES]
+
+If you'd like your engravings to start off looking the same (you can toggle them on individual later), set this to YES.
+
+[ENGRAVINGS_START_OBSCURED:NO]
+
+This controls the number of milliseconds that must pass before a held key sends a repeat press to the game.  You might need to adjust this.
+
+[KEY_HOLD_MS:150]
+
+This controls "more" in adventure mode.  If MORE is set to NO, all announcements will be skipped.  DISPLAY_LENGTH controls how many lines are printed before it gives you the "more" prompt.
+
+[MORE:YES]
+[DISPLAY_LENGTH:23]
+
+Set this to YES if you want traps to affect you in adventure mode.  This is not recommended -- there are issues with cage traps, and you cannot disarm any of the traps yet, so they effectively stops you from exploring your old fortresses.
+
+[ADVENTURER_TRAPS:NO]
+
+You can use these to say how nicknames are displayed in each mode
+Options are REPLACE_FIRST, CENTRALIZE (between first and last), REPLACE_ALL
+[NICKNAME_DWARF:REPLACE_FIRST]
+[NICKNAME_ADVENTURE:REPLACE_FIRST]
+[NICKNAME_LEGENDS:REPLACE_FIRST]
+
+These are the display colors in RGB.  The game is actually displaying extended ASCII characters in OpenGL, so you can modify the colors.
+
+[BLACK_R:0]
+[BLACK_G:0]
+[BLACK_B:0]
+[BLUE_R:0]
+[BLUE_G:0]
+[BLUE_B:128]
+[GREEN_R:0]
+[GREEN_G:128]
+[GREEN_B:0]
+[CYAN_R:0]
+[CYAN_G:128]
+[CYAN_B:128]
+[RED_R:128]
+[RED_G:0]
+[RED_B:0]
+[MAGENTA_R:128]
+[MAGENTA_G:0]
+[MAGENTA_B:128]
+[BROWN_R:128]
+[BROWN_G:128]
+[BROWN_B:0]
+[LGRAY_R:192]
+[LGRAY_G:192]
+[LGRAY_B:192]
+[DGRAY_R:128]
+[DGRAY_G:128]
+[DGRAY_B:128]
+[LBLUE_R:0]
+[LBLUE_G:0]
+[LBLUE_B:255]
+[LGREEN_R:0]
+[LGREEN_G:255]
+[LGREEN_B:0]
+[LCYAN_R:0]
+[LCYAN_G:255]
+[LCYAN_B:255]
+[LRED_R:255]
+[LRED_G:0]
+[LRED_B:0]
+[LMAGENTA_R:255]
+[LMAGENTA_G:0]
+[LMAGENTA_B:255]
+[YELLOW_R:255]
+[YELLOW_G:255]
+[YELLOW_B:0]
+[WHITE_R:255]
+[WHITE_G:255]
+[WHITE_B:255]
